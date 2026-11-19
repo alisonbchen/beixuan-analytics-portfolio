@@ -1,7 +1,7 @@
-# Retail growth action plan — synthetic demonstration
+# Supporting product and channel diagnostic — synthetic demonstration
 
 ## Decision
-Choose which products and channels to investigate before increasing marketing spend.
+This calculation supports the wider sales-growth strategy. Read PROJECT_REPORT.md and ACTION_PLAN.md for the overall consultancy objective, research, channel choices and recommendations.
 
 ## Product focus
 Matcha sets produce 2.23 times the portfolio-average net revenue per unit. Compare this with revenue share and unit share in categories.csv.

@@ -1,55 +1,51 @@
-# Gohobi — Retail Growth Analytics
+# Gohobi — Sales Growth Strategy and Action Plan
 
-A public demonstration of the product and channel analysis behind a retail-growth consultancy problem: **how can a tea and homeware brand increase retail and wholesale sales within a limited marketing budget?**
+**Project objective: develop a practical sales and marketing strategy to grow Gohobi’s B2C and B2B revenue across its website/Shopify, Faire wholesale and in-person events, within limited marketing and operating resources.**
 
-The original consultancy involved market research, product opportunities, competitor positioning and a sales action plan. This repository is a newly written public coding edition of that analytical approach. All bundled sales and order records are synthetic; they are not altered copies of confidential client exports. Demonstration findings must not be described as Gohobi's actual performance or implemented revenue gains.
+Gohobi is a tea, ceramics and homeware brand. The consultancy question was how its product offering, positioning, customer journey and channel choices should work together to support sustainable sales growth. The deliverable was a client-facing strategy report and sales recommendations. Product calculations support that decision; they are one workstream within the wider project.
 
-## Decisions and outputs
+## Read the project
 
-| Question | Method | Decision output |
+- [Whole-project report](PROJECT_REPORT.md): business problem, research approach, integrated findings and strategic direction.
+- [Sales and marketing action plan](ACTION_PLAN.md): how the recommendations address acquisition, conversion, basket value, repeat engagement and wholesale reach.
+- [Scope and evidence](SCOPE_AND_EVIDENCE.md): what the client requested, what the shared report supports and what this public edition adds.
+- [Commercial review framework](commercial_review.md): the seven dimensions used to examine competitor positioning.
+- [Supporting diagnostic example](examples/product_channel_diagnostic.md): a small synthetic product/channel analysis that illustrates the quantitative method.
+
+## How the project answers the growth question
+
+| Workstream | Project question | How it contributes to the sales strategy |
 |---|---|---|
-| Which product categories warrant promotion? | Reconcile sales, normalize category labels, compare revenue/unit contributions and net revenue per unit | A candidate category for a gift-bundle test, with stock/cost checks |
-| How large is the fulfilled UK wholesale base? | Distinguish order lines from orders, filter country and delivery status | Delivered-order and unit counts with a defined scope |
-| What makes products difficult to discover or choose? | Structured review of navigation, positioning and purchase context | Sales plan connecting product grouping and content to acquisition objectives |
+| Client objectives and constraints | What growth does the business want, and what can its budget and team support? | Sets the scope and prioritizes feasible actions across retail and wholesale |
+| UK/EU tea and homeware research | Which market trends and consumption occasions fit the existing offer? | Connects product selection, gifting and positioning to a commercial opportunity |
+| Consumer and purchase journey | How do awareness, purchase decisions and repeat engagement connect? | Frames acquisition, conversion and retention questions and the measurement needed |
+| Competitor and brand analysis | Where can Gohobi differentiate, and where might its offer be hard to understand? | Informs navigation, craftsmanship/origin storytelling, experiences and channel choices |
+| Product and channel evidence | What do sales records say about product mix and fulfilled wholesale activity? | Supports product priorities and defines the size/scope of existing channel activity |
+| Integrated recommendations | Which actions could support sales without a large new spending commitment? | Combines seasonal gifting, clearer brand communication, useful content, bundles, events and selective wholesale |
 
-## Run
+## Strategic direction from the team report
 
-Python 3.10+, no additional packages. From this directory:
+The report recommends making Gohobi’s existing offer easier to discover, understand and buy, while using gifting, experiences and suitable wholesale partners to extend its reach. The recommendations connect complementary tea/homeware products with seasonal occasions, communicate craftsmanship and origin, develop useful product content, integrate events into sales activity and keep wholesale partnerships selective.
+
+The commercial contribution is an integrated growth strategy and a set of actionable sales choices. The shared report does not establish implemented revenue growth, conversion uplift or a measured return on marketing spend. Its market interpretations and competitor observations belong to the project period, not a fresh audit of today’s market.
+
+## Supporting quantitative implementation
+
+The code is a new public demonstration of one part of the consultancy workflow. All bundled products and orders are generated synthetic examples; confidential client exports and the full team report are not distributed.
 
 ```bash
 python3 retail.py
 python3 -m unittest discover -s tests -v
 ```
 
-Outputs are `build/results.json`, `build/categories.csv` and `build/sales_action_plan.md`. A readable [example action plan](examples/sales_action_plan.md) is included for browsing.
+Python 3.10+; no third-party packages. Outputs go to `build/`:
 
-## Analysis process
+- `results.json`: product mix and wholesale-order scope.
+- `categories.csv`: category shares and net revenue per unit.
+- `product_channel_diagnostic.md`: supporting findings and additional checks before a product/channel decision.
 
-1. **Reconcile money.** Check `gross + discounts + returns = net` and `net + taxes = total`. Discounts and returns are already signed, so they are not deducted twice.
-2. **Normalize categories.** Strip whitespace and normalize case. Keep missing categories in an explicit bucket; do not drop legitimate rows just because product titles repeat.
-3. **Compare product mix.** Calculate shares from category totals over portfolio totals, rather than averaging row-level percentages.
-4. **Evaluate product value.** Divide category net sales by net units and compare with the portfolio's weighted net revenue per unit. Zero/nonpositive unit denominators produce no per-unit estimate.
-5. **Define channel scope.** Count unique order IDs, distinguish delivery states and keep national scope explicit. Conflicting statuses/countries/currencies within one order raise an error.
-6. **Translate findings.** Nominate a product experiment and channel follow-up, then specify what additional data would establish incremental impact.
+The implementation reconciles monetary identities, normalizes category labels, retains legitimate repeated product titles, compares category contributions and distinguishes order lines from unique delivered orders. It does not implement the entire consultancy project in Python or turn synthetic findings into client results.
 
-```text
-category revenue share = category net sales / portfolio net sales
-category unit share = category net units / portfolio net units
-revenue-per-unit index = category revenue per net unit / portfolio revenue per net unit
-```
+## Evaluation and measurement
 
-The product fixture has 9 records, including two case variants for matcha sets and repeated cup titles. The order fixture has 9 lines but only 7 unique orders; 3 UK orders are delivered, containing 23 units. They are deliberately small examples, not the original project's record counts.
-
-## Commercial reasoning
-
-A category with above-average revenue per unit may be worth investigating for gifting or bundled merchandising. That is a product-selection signal, not proof of higher margin, greater demand or promotion effectiveness. Validate costs, stock and demand before committing budget.
-
-Navigation and storytelling are reviewed as possible purchase barriers. The [commercial review framework](commercial_review.md) makes the seven dimensions explicit. Selective wholesale is evaluated as another route to customer reach, with separate fulfillment and brand-fit considerations.
-
-To quantify an intervention later, collect sessions, orders, net revenue, margin, returns and acquisition spend using compatible channel/time definitions. Do not infer conversion or customer acquisition cost from product totals or order counts alone. No live marketing experiment or client implementation is claimed by this edition.
-
-## Validation and data scope
-
-Tests cover category normalization, repeated titles, total-share reconciliation, zero-unit denominators, monetary identities, mixed currencies, unique-order counting and conflicting statuses. Financial totals require a single currency; different-country order counts are not converted into combined revenue. The two demonstration files are not joined because they do not share an order/product key.
-
-Original client files, business contact details, customer information and the full team report are excluded from this public repository.
+The project’s immediate output is the strategy and action framework. To evaluate a later implementation, use consistent channel/time definitions for net revenue, orders, average order value, conversion, repeat purchase, returns, contribution margin and acquisition spend. Market forecasts, recommendation counts and code outputs are not realized sales gains. See the action plan for how each lever would be assessed.

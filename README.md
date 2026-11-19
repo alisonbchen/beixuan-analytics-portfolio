@@ -8,7 +8,7 @@ Four runnable projects connect data preparation and analysis to service planning
 |---|---|---|---|
 | [NYC 311 Demand Explorer](projects/nyc311) | Which boroughs and reported issues warrant further service-demand review? | Python, SQLite, CSV validation, JSON API, browser dashboard | Reconciliation, repeatable loads, fixed share denominators |
 | [Education Outcomes Database](projects/education_outcomes) | Can attendance-group results justify changing tutoring provision? | Six-table relational schema, SQL views, cohort validation | Join grain, missing scores, stage/attendance confounding |
-| [Gohobi — Retail Growth Analytics](projects/retail_growth) | Which products and channel actions merit limited marketing spend? | Python, Decimal reconciliation, category and order analysis | Product priority, fulfilled-order scope, sales action plan |
+| [Gohobi — Sales Growth Strategy](projects/retail_growth) | How should retail, wholesale and events support revenue growth within limited resources? | Market/customer/competitor synthesis, sales strategy, supporting Python diagnostics | Whole-project report, integrated action plan, measurement framework |
 | [Payment Networks Financial Research](projects/financial_research) | Do GAAP and adjusted profitability changes tell the same story? | Public SEC filings, SQLite window functions, financial comparisons | Fiscal-period differences, growth versus margin changes |
 
 ## Run all projects

@@ -82,14 +82,14 @@ def analyze_orders(path):
             "note":"No monetary totals are combined across currencies; order counts are not conversion rates."}
 
 
-def write_plan(product, orders, out):
+def write_diagnostic(product, orders, out):
     matcha = next((r for r in product["categories"] if r["category"]=="matcha set"),None)
     finding = (f"Matcha sets produce {matcha['revenue_per_unit_index']:.2f} times the portfolio-average net revenue per unit."
                if matcha and matcha["revenue_per_unit_index"] is not None else "No positive-unit matcha-set comparison is available.")
-    (out/'sales_action_plan.md').write_text(f"""# Retail growth action plan — synthetic demonstration
+    (out/'product_channel_diagnostic.md').write_text(f"""# Supporting product and channel diagnostic — synthetic demonstration
 
 ## Decision
-Choose which products and channels to investigate before increasing marketing spend.
+This calculation supports the wider sales-growth strategy. Read PROJECT_REPORT.md and ACTION_PLAN.md for the overall consultancy objective, research, channel choices and recommendations.
 
 ## Product focus
 {finding} Compare this with revenue share and unit share in categories.csv.
@@ -128,7 +128,7 @@ def main():
     with (args.output/'categories.csv').open('w',newline='') as handle:
         writer=csv.DictWriter(handle,fieldnames=list(products['categories'][0]))
         writer.writeheader();writer.writerows(products['categories'])
-    write_plan(products,orders,args.output)
+    write_diagnostic(products,orders,args.output)
     print(json.dumps({"product_records":products['product_records'],"categories":products['normalized_categories'],"uk_delivered_orders":orders['uk_delivered_orders']},indent=2))
 
 
