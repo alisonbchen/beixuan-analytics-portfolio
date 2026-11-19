@@ -1,0 +1,10 @@
+product_title,product_type,net_units,gross_sales,discounts,returns,net_sales,taxes,total_sales,currency
+Ceremony kit,Matcha set,40,1600,-80,-40,1480,296,1776,GBP
+Travel kit, Matcha Set ,10,420,-20,0,400,80,480,GBP
+Cloud cup,Tea Cup,80,800,-40,-20,740,148,888,GBP
+Cloud cup,Tea Cup,10,100,-5,0,95,19,114,GBP
+Stone mug,Tea Mug,35,525,-25,0,500,100,600,GBP
+Orchid vase,Vase,12,600,-30,-20,550,110,660,GBP
+Bamboo tray,Homeware,20,400,-20,0,380,76,456,GBP
+Green tea,Tea,70,560,-28,-12,520,104,624,GBP
+Repair item,,0,0,0,0,0,0,0,GBP

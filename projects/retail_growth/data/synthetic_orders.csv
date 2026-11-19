@@ -1,0 +1,10 @@
+order_id,country,status,units,currency
+D001,United Kingdom,Delivered,4,GBP
+D001,United Kingdom,Delivered,2,GBP
+D002,United Kingdom,Delivered,10,GBP
+D003,United Kingdom,Cancelled,5,GBP
+D004,United Kingdom,Shipped,3,GBP
+D005,United Kingdom,Delivered,7,GBP
+D006,France,Delivered,8,EUR
+D006,France,Delivered,2,EUR
+D007,United States,Delivered,6,USD

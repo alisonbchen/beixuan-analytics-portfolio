@@ -1,0 +1,56 @@
+[
+  {
+    "company": "Visa",
+    "fiscal_year": 2023,
+    "year_end": "September 30",
+    "net_revenue_usd_m": 32653,
+    "gaap_operating_income_usd_m": 21000,
+    "disclosed_adjusted_operating_expenses_usd_m": 10481,
+    "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm"
+  },
+  {
+    "company": "Visa",
+    "fiscal_year": 2024,
+    "year_end": "September 30",
+    "net_revenue_usd_m": 35926,
+    "gaap_operating_income_usd_m": 23595,
+    "disclosed_adjusted_operating_expenses_usd_m": 11609,
+    "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm"
+  },
+  {
+    "company": "Visa",
+    "fiscal_year": 2025,
+    "year_end": "September 30",
+    "net_revenue_usd_m": 40000,
+    "gaap_operating_income_usd_m": 23994,
+    "disclosed_adjusted_operating_expenses_usd_m": 12906,
+    "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm"
+  },
+  {
+    "company": "Mastercard",
+    "fiscal_year": 2023,
+    "year_end": "December 31",
+    "net_revenue_usd_m": 25098,
+    "gaap_operating_income_usd_m": 14008,
+    "disclosed_adjusted_operating_expenses_usd_m": 10551,
+    "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm"
+  },
+  {
+    "company": "Mastercard",
+    "fiscal_year": 2024,
+    "year_end": "December 31",
+    "net_revenue_usd_m": 28167,
+    "gaap_operating_income_usd_m": 15582,
+    "disclosed_adjusted_operating_expenses_usd_m": 11714,
+    "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm"
+  },
+  {
+    "company": "Mastercard",
+    "fiscal_year": 2025,
+    "year_end": "December 31",
+    "net_revenue_usd_m": 32791,
+    "gaap_operating_income_usd_m": 18897,
+    "disclosed_adjusted_operating_expenses_usd_m": 13389,
+    "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm"
+  }
+]
