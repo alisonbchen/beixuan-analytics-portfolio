@@ -1,2 +1,43 @@
-# beixuan-analytics-portfolio
+# Beixuan Chen — Applied Analytics Portfolio
+
 Applied analytics portfolio spanning data engineering, business intelligence, market strategy, and financial research, with project summaries, reproducible code, and analytical findings.
+
+The two runnable projects below are the first public releases. Additional market strategy and financial research projects can be added to this catalog as their public versions are prepared.
+
+| Project | Decision supported | Implementation | What to inspect |
+|---|---|---|---|
+| [NYC 311 Demand Explorer](projects/nyc311) | Which boroughs and reported issues warrant further service-demand review? | Python, SQLite, CSV validation, JSON API, browser dashboard | Reconciliation, repeatable loads, fixed share denominators |
+| [Education Outcomes Database](projects/education_outcomes) | Can attendance-group results justify changing tutoring provision? | Six-table relational schema, SQL views, cohort validation | Join grain, missing scores, stage/attendance confounding |
+
+## Run both projects
+
+Python 3.10 or newer. No third-party Python packages, credentials or network connection are needed for the bundled demonstrations.
+
+```bash
+python3 run_all.py
+```
+
+This runs both analyses and their focused tests. Generated databases and results go into ignored `build/` folders. To explore the dashboard afterward:
+
+```bash
+cd projects/nyc311
+python3 src/app.py
+```
+
+Open `http://127.0.0.1:8000`.
+
+## Scope and authorship
+
+These are newly organized public implementations based on my team-project work and analytical questions. They are not an archive of the original submissions or original execution environment. The project pages explain the methods, decisions and limitations.
+
+The NYC public edition uses Python/SQLite and a standard-library web server so it can run without a Spark cluster, PostgreSQL instance or Flask installation. It demonstrates the ingestion → validation → summary → API workflow. It does not claim to execute the original PySpark/PostgreSQL/Flask system or reproduce its historical full-data snapshot.
+
+The education project is a new implementation of the cohort-analysis problem, with a synthetic fixture and programme-specific keys. It includes improvements to missing-value handling and join grain. Original team files and report text are not redistributed.
+
+## Data included
+
+- NYC: a deliberately small, clearly labelled synthetic CSV. An optional downloader fetches four non-identifying fields directly from NYC Open Data.
+- Education: generated synthetic records with numeric keys, no names or contact details.
+- No client sales exports, internship records, personal contact details or private reports are included.
+
+The synthetic outputs are demonstrations, not observed business or public-service improvements. A workflow is included for GitHub Actions; a hosted CI run is only available after the repository is published.
