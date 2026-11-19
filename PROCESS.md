@@ -2,7 +2,7 @@
 
 ## Business question before implementation
 
-For each project, define the decision, unit of analysis and a result that can be verified. NYC 311 concerns concentrations of reported demand; education concerns valid cohort comparisons; Gohobi concerns a coordinated retail/wholesale growth strategy; financial research concerns accounting-basis comparisons. Implementation counts and observed comparisons are distinguished from realized business impact.
+For each project, define the decision, unit of analysis and a result that can be verified. NYC 311 concerns concentrations of reported demand; education concerns valid cohort comparisons; Gohobi concerns purchase conversion, customer retention and a coordinated sales-growth strategy; financial research concerns accounting-basis comparisons. Implementation counts and observed comparisons are distinguished from realized business impact.
 
 ## Build and validate
 
@@ -23,7 +23,7 @@ Original group materials are not redistributed.
 
 - NYC: load the fixture, inspect the quality buckets, rerun the load, then show why the top-one issue's share still uses the full borough/month denominator.
 - Education: explain why the high-attendance group's lower rate is initially surprising, show the stage cross-tab, then explain what additional data would be needed before changing tutoring provision.
-- Gohobi: start with the client’s revenue-growth objective, connect market/customer/competitor research to the channel and marketing strategy, then use the product/order calculations as supporting evidence and explain how a later rollout would be measured.
+- Gohobi: explain the complete report’s conversion and retention diagnosis, walk through the five-stage Customer Acquisition Model and the original priority matrix, then demonstrate funnel denominators and cohort maturity on synthetic data. Product/order calculations remain a supporting module.
 - Finance: compare revenue growth and GAAP margin changes, inspect the derived adjusted basis and explain why different fiscal year ends limit comparability.
 
 ## CI

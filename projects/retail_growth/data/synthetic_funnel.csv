@@ -1,0 +1,4 @@
+channel,sessions,add_to_cart_sessions,checkout_sessions,purchase_sessions
+Search,5000,350,200,70
+Social,4000,120,65,12
+Direct,1000,80,45,18

@@ -8,7 +8,7 @@ Four runnable projects connect data preparation and analysis to service planning
 |---|---|---|---|
 | [NYC 311 Demand Explorer](projects/nyc311) | Which boroughs and reported issues warrant further service-demand review? | Python, SQLite, CSV validation, JSON API, browser dashboard | Reconciliation, repeatable loads, fixed share denominators |
 | [Education Outcomes Database](projects/education_outcomes) | Can attendance-group results justify changing tutoring provision? | Six-table relational schema, SQL views, cohort validation | Join grain, missing scores, stage/attendance confounding |
-| [Gohobi — Sales Growth Strategy](projects/retail_growth) | How should retail, wholesale and events support revenue growth within limited resources? | Market/customer/competitor synthesis, sales strategy, supporting Python diagnostics | Whole-project report, integrated action plan, measurement framework |
+| [Gohobi — Customer Lifecycle & Sales Growth](projects/retail_growth) | How can product appeal become completed purchases and repeat customers? | Customer Acquisition Model, channel/funnel/cohort analysis, market and competitor synthesis | Conversion and retention diagnosis, original priority matrix, synthetic demonstrations |
 | [Payment Networks Financial Research](projects/financial_research) | Do GAAP and adjusted profitability changes tell the same story? | Public SEC filings, SQLite window functions, financial comparisons | Fiscal-period differences, growth versus margin changes |
 
 ## Run all projects
@@ -40,7 +40,7 @@ The education project is a new implementation of the cohort-analysis problem, wi
 
 - NYC: a deliberately small, clearly labelled synthetic CSV. An optional downloader fetches four non-identifying fields directly from NYC Open Data.
 - Education: generated synthetic records with numeric keys, no names or contact details.
-- Retail: generated synthetic product and wholesale-order fixtures, plus a consultancy analysis framework.
+- Retail: generated product, wholesale-order, funnel and customer-cohort fixtures, plus the complete-project strategy summary and analysis frameworks.
 - Finance: six company-year numeric observations transcribed from publicly available SEC filings, with source URLs.
 - No client sales exports, internship records, personal contact details or private reports are included.
 

@@ -1,40 +1,64 @@
-# Integrated sales and marketing action plan
+# Prioritized sales and marketing action plan
 
-## Growth objective
+## Objective
 
-Support sustainable retail and wholesale revenue growth by improving how customers discover, understand and purchase Gohobi’s tea/homeware offer, while building on existing products, digital channels, events and suitable business partners.
+Address the conversion and retention constraints identified in the report while supporting sustainable sales growth across digital retail, events and selective wholesale. Improve how customers understand, choose, complete purchases and maintain a relationship with the brand, within limited resources.
 
-The action themes summarize the team report. The sequencing and measurement framework below are a proposed implementation aid added for this public edition, not original client-approved deadlines, budgets or completed actions.
+## Original recommendation matrix
 
-## Connect each action to the business problem
+The ratings below reproduce the qualitative planning structure of the complete report’s Figure 18. They describe intended impact, implementation horizon and effort—not measured uplift or approved financial returns.
 
-| Growth lever | Problem or opportunity addressed | Practical action | Intended commercial contribution | Measure after implementation |
+| Recommendation | Horizon | Assessed impact | Assessed effort | Intended mechanism |
 |---|---|---|---|---|
-| Seasonal gifting | Customers need an occasion and a clear reason to choose the offer | Group suitable existing products around relevant gifting occasions and coordinate content with availability | More relevant discovery and purchase intent | Gift-range net sales, conversion and margin over a defined campaign period |
-| Brand narrative and product discovery | The value of craftsmanship and the range can be difficult to understand quickly | Clarify navigation, product origin, maker stories and use cases on existing touchpoints | Help customers find products and understand value | Product-view-to-order progression, conversion and returns |
-| Useful content and engagement | Limited budget constrains reliance on paid reach | Produce product-use guides, pairing ideas and behind-the-scenes material | Qualified discovery and continuing engagement | Qualified visits and attributed orders; repeat purchase by a defined cohort |
-| Curated bundles | Customers may need help choosing complementary tea/homeware products or gifts | Select a small feasible bundle offer, then check stock, cost and demand before testing | Easier selection and a potentially larger purchase | Average order value alongside net revenue, contribution margin and stock-outs |
-| Events and experiences | Existing events can connect product experience with commerce | Integrate suitable product offers and consistent order attribution into existing events | Discovery, direct purchases and later follow-up | Event-attributed net sales and new customers, with a defined follow-up window |
-| Selective wholesale | The business can reach customers through partners without losing control of brand fit | Assess aligned stockists and a curated assortment against fulfillment capacity | Additional B2B reach and commercially suitable orders | Fulfilled wholesale net sales, reorder behavior, margin and delivery reliability |
+| Seasonal and gift-oriented marketing | Short term | High | Low | Target relevant occasions and make the existing gift proposition easier to choose |
+| Set-based and bundled offerings | Medium term | High | Low | Simplify complementary product selection and support purchase value |
+| Brand narrative visibility | Medium term | Medium | Medium | Make origins, makers and cultural/product value clearer across touchpoints |
+| Content-led engagement | Medium term | Low in the matrix | High | Build understanding and continued engagement through use guides and contextual content |
+| Event-led sales | Long term | High | High | Connect product experience, customer acquisition and brand-led purchasing |
+| Selective wholesale partnerships | Long term | Medium | Medium | Extend suitable B2B reach while controlling brand and assortment fit |
 
-## Proposed implementation sequence
+The report’s prose groups actions into three priorities: seasonal/gift-led value creation; brand engagement through content/narrative; and longer-term brand-led channels. The individual ratings above follow the figure, preserving its more detailed distinctions.
 
-1. **Establish the baseline.** Agree the revenue objective, available resources, sales definitions and data owners. Reconcile retail and wholesale exports; inspect stock and costs. Identify which customer/session/cohort measures are actually available.
-2. **Prioritize feasible changes.** Select product/occasion combinations and presentation changes that fit the existing offer. Choose a limited number of actions based on strategic fit, operational feasibility and expected learning—not an invented revenue forecast.
-3. **Pilot and record.** Set the intervention, audience, period and success/guardrail measures before launch. Compare appropriate audiences or periods, while accounting for seasonality, promotions and other channel activity.
-4. **Review and expand.** Assess incremental net revenue and margin where the design permits. Refine bundles/content, retain effective activity and assess further events or stockists only where capacity and economics support them.
+## Connect actions to the lifecycle diagnosis
 
-## Measurement definitions
+### 1. Turn interest into a clearer purchase proposition
 
-- **Net revenue:** use discounts/refunds consistently and avoid mixing tax-inclusive and tax-exclusive totals.
-- **Conversion:** orders divided by eligible sessions over the same channel/time window; no estimate is possible from product totals alone.
-- **Average order value:** comparable net revenue divided by unique orders, not revenue per product unit.
-- **Repeat purchase:** define a customer cohort and observation window; do not multiply a generic retention assumption into sales.
-- **Wholesale activity:** distinguish order lines, orders and fulfilled orders; track partner reorders separately.
-- **Channel attribution:** assign transactions consistently so event-related purchases processed on Shopify are not counted twice in total revenue.
+Use relevant seasonal email activity, gift positioning and feasible bundles to help customers connect product appeal with a purchase occasion. Product pages and navigation should make the offer understandable, with product benefits, craftsmanship, use cases and appropriate trust signals.
 
-Traffic, conversion and order value help explain retail revenue, while wholesale orders and suitable partner reorders explain a separate route to growth. These drivers are connected; improving one does not guarantee profitable total growth. Measures should be assessed alongside returns, stock availability, fulfillment and margin.
+Assess conversion and order value alongside margin, stock availability and returns. A higher-value bundle or popular product does not establish that checkout friction has been removed.
 
-## Current outcome
+### 2. Develop engagement beyond a first transaction
 
-The documented project outcome is the strategy and recommendations. The repository demonstrates analytical methods and implementation planning; it does not contain evidence of a completed client rollout or a measured revenue increase.
+Use clearer brand communication and useful product content to support trust and re-engagement. The report identifies a gap in structured post-purchase experience; implementation should establish what follow-up actually reaches customers and whether repeat behavior improves over a consistently observed cohort window.
+
+A full automated lifecycle-email program is an implementation possibility to assess, not a completed intervention claimed by the report.
+
+### 3. Build brand-led routes to suitable customers
+
+Integrate events with clear commercial offers and consistent order attribution. For wholesale, the report proposes a dedicated website section with partnership information and registered-account access to appropriate pricing, while keeping stockists and assortments selective.
+
+Judge these actions against staffing, fulfillment, product economics and brand fit, not just additional reach.
+
+## Added implementation and measurement checklist
+
+This section is a public implementation aid, distinct from the report’s original priority ratings.
+
+1. Establish compatible channel/time definitions and a reconciled baseline.
+2. Inspect where the funnel loses sessions and identify hypotheses to test, including relevant device and checkout experience.
+3. Define the intervention, audience, period and primary/guardrail measures before launch.
+4. Evaluate purchase progression and net commercial outcomes, then follow customers long enough to assess repeat behavior.
+5. Expand activity only where capacity, economics and observed outcomes support it.
+
+| Measure | Definition and key caution |
+|---|---|
+| Session conversion | Sessions with purchase / eligible sessions in a fixed window; keep this distinct from orders per session |
+| Stage progression | Sessions reaching the next stage / sessions at the preceding stage |
+| Cart-to-purchase loss | 1 − purchase sessions / add-to-cart sessions, when stages belong to a consistent cohort/window |
+| Average order value | Comparable net revenue / unique orders; not revenue per item |
+| Cohort repeat rate | Customers returning at a specified horizon / original customers in cohorts mature enough for that horizon |
+| Net commercial impact | Incremental net revenue and contribution margin, accounting for discounts, returns and channel costs |
+| Channel attribution | Avoid counting event-related transactions again when processed through another sales platform |
+
+## Further-development directions in the report
+
+Operational scalability and inventory/supply planning; international market/wholesale assessment; pricing optimization; and scenario planning/backcasting are listed as future opportunities. No completed optimization model or verified rollout result is implied.

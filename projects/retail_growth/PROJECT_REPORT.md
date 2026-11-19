@@ -1,66 +1,62 @@
-# Gohobi sales growth strategy
+# Gohobi customer lifecycle and sales growth strategy
 
-## Business problem and project purpose
+## Client challenge
 
-Gohobi wanted a practical route to sustainable revenue growth across consumer retail and business wholesale. Its offer spans tea, teaware, ceramics, homeware and experiences. The business already had multiple ways to reach customers, including website/Shopify sales, Faire wholesale and in-person events. The project therefore needed to connect product opportunities and market positioning with customer acquisition, purchasing and channel development.
+Gohobi’s challenge was to convert brand and product appeal into consistent purchases and long-term customer value. Its offer spans tea, teaware, ceramics, homeware and experiences, sold through digital retail, wholesale and events. The project sought a practical sales and marketing strategy that could support revenue growth within the business’s budget and operating capacity.
 
-The client brief requested sales strategy, an action plan, product analysis, pricing/stock/channel recommendations and research into new customers, markets and product extensions. Limited marketing resources made feasibility central: a promising idea still had to fit the brand, available products, operating capacity and budget.
+The complete report’s challenge diagram connects strong brand equity and traffic with low purchase conversion, limited long-term customer value and structural gaps in the sales/marketing system. This frames the project as an integrated business problem: where does the customer journey lose value, and which feasible changes should the company prioritize?
 
-## Research and analytical approach
+## Research and methods
 
-The shared report describes client alignment meetings, use of client-supplied information and desk research. It examines tea and homeware markets in the UK and EU, relevant consumption contexts and the competitive environment, then develops sales and marketing recommendations.
+The report describes client alignment meetings, client-supplied information, external market research and customer/marketing analysis. The team triangulated internal evidence, industry comparisons and qualitative customer-experience evaluation.
 
-Consumer conversion, retention and the relationship between marketing activity and purchases appear in its research agenda. These questions help explain the sales system; they should not be read as proof that the report established precise client conversion or retention estimates. The available evidence imposed limits on financial impact estimation.
+Market research covered tea and homeware in both the UK and EU. A focused comparison of two competitors across seven commercial dimensions informed SWOT-style interpretation of Gohobi’s positioning. Customer research used a five-stage Customer Acquisition Model: awareness, consideration, purchase, service, and loyalty/expansion.
 
-The project combines several analytical perspectives:
+The model was applied to channel contributions, product/landing-page interest, a conversion funnel, customer experience and a cohort view of repeat behavior. This customer analysis is a completed part of the report, not merely a list of questions proposed for later work.
 
-1. Understand what the client wants to grow and what its resources permit.
-2. Examine whether market trends and customer occasions fit its product range.
-3. Compare competitors on product range, price, brand narrative, shipping, events, sales channels and website presentation.
-4. Connect product, consumer and channel observations to concrete commercial choices.
-5. Integrate the choices into recommendations that the business could assess and implement.
+## Why market and competitor research matter
 
-## Market and offer fit
+The market work connects the offer with consumption contexts such as gifting, curated products, cultural aesthetics and craftsmanship. It supports the relevance of product/brand choices, while the competitor comparison identifies ways to improve product discovery, narrative and brand-led channels.
 
-The report covers both tea and homeware, and both UK and EU contexts. Its strategic interpretation is that Gohobi can make its existing curated products relevant through gifting, everyday rituals, craftsmanship and aesthetic use rather than relying on market size alone.
+External market attractiveness alone does not explain Gohobi’s sales performance. The report moves from that context to the business’s own customer journey. Its purpose is to decide how the company can capture value from existing interest, not to treat industry forecasts as an achieved company outcome.
 
-This matters because an attractive external market does not automatically generate brand sales. The project connects an opportunity to products the company can actually offer, an occasion in which customers might buy them and a route through which those customers can be reached.
+## Lifecycle diagnosis
 
-The public summary does not repeat unverified industry forecasts as established market facts or project outcomes. Pricing, stock planning and market expansion were requested in the brief; the shared report supports strategic recommendations rather than a completed price-elasticity model, inventory optimizer or market-entry financial model.
+### Awareness and consideration
 
-## Customer journey and commercial communication
+The channel analysis distinguishes high-intent search visitors from other sources of discovery. The report treats search/SEO as a valuable source of commercially relevant demand and social channels as part of a broader storytelling and re-engagement role. Traffic volume alone is not a sufficient indicator of channel value.
 
-The commercial chain is awareness → understanding and product discovery → purchase → repeat engagement. Content and brand expression can make the existing offer more understandable; navigation and gift grouping can help shoppers select products; events can support discovery and experience; suitable wholesale partners can extend reach.
+Product-page interest and cart activity show that the offer can generate consideration. The report links product benefits, craftsmanship, use/gifting context and social proof with trust and purchase intent. A popular landing page is not automatically a high-converting product.
 
-These are hypotheses about the role of each commercial action, not measured causal effects. Conversion and retention need their own consistent transaction/session/cohort data. Product sales totals alone cannot establish either metric.
+### Purchase conversion
 
-## Competitive positioning and differentiation
+The conversion funnel identifies substantial loss between cart activity and completed purchasing. This is one of the two main constraints highlighted in the conclusion. Mobile visitor context and the visibility of shipping, pricing and payment information help frame the experience that needs closer investigation.
 
-The team compared two competitors across seven commercial dimensions. The report identified opportunities to make the brand story and product presentation clearer, and to use Gohobi’s existing events and experiences as a source of differentiation. It also considered risks around shifting preferences and sourcing-related costs.
+The diagnosis locates the stage of loss; it does not by itself establish a single causal reason for abandonment or prove that a particular proposed change will recover those sales. Comparable time windows and event/session definitions are required before estimating a recoverable opportunity.
 
-The strategic use of that work is to decide how the business should explain and distribute its offer. A qualitative difference in brand presentation is not a numeric estimate of lost sales or a competitor performance ranking.
+### Service and loyalty
 
-## Integrated strategic direction
+The report describes satisfactory product experience and no dominant delivery problem, but limited structured post-purchase follow-up and weak sustained repeat engagement. Its cohort analysis supports the concern that one-off purchasing is not developing into a stable customer relationship.
 
-The recommendations work together:
+This makes retention part of the growth problem, rather than assuming that satisfaction automatically produces loyalty. Exact cohort rates need their original definitions and observation windows, including maturity of recent cohorts; the public repository demonstrates these concepts on synthetic data.
 
-- **Seasonal and gift-oriented marketing** connects existing products with recognizable purchase occasions.
-- **Clearer brand narrative** communicates origins, makers, craftsmanship and relevant product context.
-- **Useful content** explains how products fit into customers’ lives and supports continuing engagement.
-- **Curated tea/homeware bundles** offer a more complete proposition and simplify gift selection.
-- **Event-led sales** link existing experiences with opportunities for discovery and purchasing.
-- **Selective wholesale partnerships** extend reach while retaining brand and assortment control.
+## From diagnosis to strategy
 
-The [action plan](ACTION_PLAN.md) turns these into connected decisions, practical next steps and measures. It is a public synthesis of the report’s recommendations with an explicitly proposed implementation sequence; it is not a record of a completed client rollout.
+The recommendations connect the customer lifecycle with the existing offer and resources:
 
-## Role of product and channel calculations
+- Seasonal email/gifting activity and curated bundles are intended to make the purchase occasion clearer and selection easier.
+- Brand narrative and educational/use-oriented content are intended to build understanding, trust and engagement.
+- Events use an existing experiential capability to strengthen discovery and brand-led sales.
+- Selective wholesale extends suitable commercial reach while preserving assortment and brand fit.
 
-The repository’s Python module is a supporting diagnostic. It demonstrates how clean sales definitions and comparable product groups could inform a product decision, and how country/status/order grain affects the interpretation of wholesale activity.
+The report prioritizes these recommendations by impact, effort and timeline. The public [action plan](ACTION_PLAN.md) preserves that matrix and separately identifies the evidence needed to assess implementation.
 
-A high net revenue per unit can nominate a category for further consideration, but does not establish demand, margin, promotion effectiveness or average order value. Similarly, fulfilled-order counts define channel activity but do not by themselves justify expansion. Those findings have to be interpreted alongside the market, customer, operational and brand evidence above.
+The recommendations are not treated as proven remedies for every checkout or retention issue. The report’s diagnosis and strategic direction should guide a measured implementation and further investigation.
 
-## Deliverables and contribution
+## Outcome and next steps
 
-The project delivered a strategy report that connected market opportunity and competitive positioning with feasible sales and marketing recommendations. Its contribution was to give the client a clearer commercial direction and specific options for improving the offer’s presentation, purchase context and channel reach.
+The project delivered an integrated strategy report: a defined sales/marketing problem, market and competitor context, a customer-lifecycle diagnosis, and prioritized recommendations. The business contribution is a clearer basis for deciding where to improve conversion and customer development before relying on more acquisition spending.
 
-The report notes confidentiality, limited comparable competitor data, a restricted observation period and limited marketing resources. Those constraints limit precise financial-impact estimates. The public edition therefore distinguishes research findings, proposed actions and future success measures. It does not claim a verified sales uplift, increased customer retention or an implemented channel rollout.
+The report’s future-work diagram separately identifies operational scalability, international market analysis, pricing optimization, and scenario planning/backcasting. These are further-development directions, not completed optimization or backcasting models.
+
+The report does not provide evidence of a completed rollout, a causal increase in revenue or an implemented retention improvement. Confidentiality-adjusted figures and varied comparison scopes also limit precise impact estimates. The public repository preserves the analytical logic and supplies new synthetic implementations of selected methods without republishing the original client data.

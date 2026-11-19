@@ -1,23 +1,26 @@
 # Project scope and evidence
 
-This page distinguishes the consultancy mandate, the shared project report and the new public analytical demonstration. Original documents and client datasets remain outside the repository.
+The controlling report is the complete 33-page *Gohobi Consulting Project 2025/2026*. It supersedes the shorter working document previously used for this repository’s summary. Page references below count PDF pages from the cover; printed page numbers are not always identical.
 
-| Topic | Client mandate / report scope | What this public edition presents |
+| Evidence | Location in complete PDF | Public treatment |
 |---|---|---|
-| Overall purpose | Practical B2C/B2B revenue-growth strategy and sales action plan | Project-wide report summary and integrated action plan |
-| Markets | UK/EU tea and homeware opportunities, trends, customers and expansion | Qualitative synthesis of the report’s strategic reasoning; no claim that old forecasts are current verified statistics |
-| Consumers and marketing | Conversion, retention and the link between marketing and purchases appear as research questions | Customer-journey logic and future measurement definitions; no invented client funnel estimates |
-| Competitive positioning | Two competitors compared across seven dimensions | Explanation of how the comparison informs differentiation and purchase experience |
-| Product/pricing/stock | Brief requests product performance, assortment, pricing and stock recommendations | Supporting synthetic product-mix calculations; no claim of a completed elasticity or inventory-optimization model |
-| Channels | Website/Shopify, Faire wholesale and in-person events | Channel-specific actions and consistent revenue/order attribution principles |
-| Strategy recommendations | Seasonal gifting, narrative visibility, useful content, bundles, event-led sales, selective wholesale | Integrated plan linking each lever to a problem, an intended contribution and a future success measure |
-| Delivery and impact | Shared report provides research and recommendations and discusses evidence/resource limits | Report/strategy output distinguished from implementation and realized financial impact |
-| Models and methods | Narrative mentions business frameworks; outline material also mentions a backcasting model/system map | A new conceptual sales-system explanation; no claim that an executable backcasting model or quantified full-funnel model was completed in the original project |
+| Client challenge and task logic | PDF 5 | Frames the whole project around conversion, long-term customer value and sales/marketing system gaps |
+| Methodology and triangulation | PDF 6 | Client alignment, internal evidence, external research, industry comparisons and qualitative experience review |
+| UK/EU market context | PDF 7–13 | Strategic interpretation; old market forecasts are not presented as current audited statistics |
+| Competitor and SWOT analysis | PDF 13–15 | Two-competitor/seven-dimension positioning framework |
+| Customer Acquisition Model | PDF 16 | Completed five-stage analysis spanning awareness through loyalty |
+| Channels and awareness | PDF 17 | Channel-role interpretation without republishing client financial amounts |
+| Consideration, funnel and service | PDF 18 | Completed conversion diagnosis; public code uses new synthetic counts |
+| Cohort/retention analysis | PDF 19 | Completed repeat-behavior analysis, with public denominator/maturity explanations |
+| Impact/effort/timeline matrix and recommendations | PDF 20–23 | Original qualitative ratings and prioritized sales/marketing strategy |
+| Future-development directions | PDF 23 | Operations, international analysis, pricing and scenario planning/backcasting remain future work |
+| Overall conclusion | PDF 24 | Purchase conversion and customer retention are the core growth constraints identified by the team |
+| Appendix | PDF 29–33 | Supporting charts; original client screenshots/tables are not redistributed |
 
-## Source basis
+## Boundaries
 
-- Client consultancy brief: purpose, objectives, scope, requested datasets and expected deliverables.
-- Shared 17-page project report: introduction/objectives/methodology, UK/EU market research, competitor comparison, limitations and recommendations.
-- The public Python code and generated fixtures: new supporting implementations prepared for reproducibility. Their counts and monetary values are synthetic and separate from the team report.
-
-The public summary covers the whole project rather than an individual member’s task list. Team-wide aims and supported findings are described at project level; expected deliverables are not automatically labelled completed models or measured results.
+- The report explicitly says internal data were modified for confidentiality. Original screenshots, client financial amounts and internal rate series are excluded from this repository.
+- The public lifecycle, product and order fixtures are generated examples, not altered copies of client exports. Their results do not describe actual client performance.
+- The public Python code is a new reproducible edition of selected analytical methods. The project’s original analytical work is not misrepresented as this code’s historical execution.
+- The report supplies research, diagnosis and prioritized recommendations; no implemented revenue or retention gain is claimed.
+- Scenario planning/backcasting and pricing/operational optimization appear as future directions, not completed models.

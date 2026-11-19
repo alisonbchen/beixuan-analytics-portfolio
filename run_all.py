@@ -12,6 +12,7 @@ commands = [
     (nyc, ["src/pipeline.py", "--input", "data/synthetic_requests.csv"]),
     (education, ["education.py"]),
     (retail, ["retail.py"]),
+    (retail, ["lifecycle.py"]),
     (finance, ["research.py"]),
     (nyc, ["-m", "unittest", "discover", "-s", "tests", "-v"]),
     (education, ["-m", "unittest", "discover", "-s", "tests", "-v"]),
